@@ -1,16 +1,5 @@
-/* body{
-    background-color: #ee99a0;
-}  */
-
-
 *{
     margin:0;
-}
-
-.index{
-    width: 50%;
-    float:left;
-    text-align: center;
 }
 
 .intro{
@@ -30,6 +19,24 @@
     float: left;
 }
 
+i{
+    color: #350b40;
+}
+
+button{
+    border-color: #ee99a0;
+    border-width: 3px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10 10;
+}
+
+button:hover{
+    background-color: #ad6c80;
+    border-color: #ad6c80;
+    color: white;
+}
+
 hr{
     color: #350b40;
     background-color:#350b40;
@@ -46,35 +53,35 @@ hr{
 
 .content{
     font-size: 20px;
-    padding:10px;
+    font-family: 'Architects Daughter', cursive;
+    padding-top: 20px;
+    
 }
+
+.content center{
+    padding: 0 250 20 250;
+}
+
+#college{
+    font-size: 60px;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    height: 100px;
+    padding-top: 20px;
+    background-color:#ee99a0;
+    clear: both;
+}
+
 #contact{
     align-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #94b5c0;
+    clear:both;
 }
 
 a:hover{
     opacity: 70%;
 }
 
-i{
-    color: #350b40;
-}
 
-button{
-    border-color: #ee99a0;
-    border-width: 3px;
-    border-radius: 10px;
-    background-color: white;
-    padding: 10 10;
-    position: relative;
-    top:650px;
-}
-
-button:hover{
-    background-color: #ad6c80;
-    border-color: #ad6c80;
-    color: white;
-}
