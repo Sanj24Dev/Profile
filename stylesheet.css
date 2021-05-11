@@ -28,6 +28,7 @@ a{
 span{
     visibility: hidden;
     font-size: 10px;
+    background-color: rgba(162,151,151,0);
 }
 
 a:hover span{
